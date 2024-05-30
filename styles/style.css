@@ -1,3 +1,5 @@
+/*header*/
+
 .header {
   display: flex;
   padding: 92px 24px 96px;
@@ -72,24 +74,12 @@
   letter-spacing: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*cover*/
 
 .cover {
   position: relative;
-  width: 1100;
-  height: 757px;
   color: #fff;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -117,7 +107,6 @@
   line-height: 1.15;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-
 }
 
 .aligned-text{
@@ -144,8 +133,6 @@
   padding-top: 5px;
   text-align: right; 
  }
-
-
 
 .cover__discrption {
   position: relative;
@@ -184,17 +171,15 @@
   align-items: center;
 }
 
-
-
 /*lots*/
 
 .lots {
   margin: 0;
-  padding: 180px 24px 0;
+  padding: 178px 24px 0;
 }
 
 .lots__heading {
-  margin: 0 0 0 40px;
+  margin-left: 40px;
   font-size: 40px;
   line-height: 47px;
   font-weight: 700;
@@ -202,7 +187,9 @@
 }
 
 .lots__card-list {
-  margin: 27px 0 0 0;
+  flex-grow: 1;
+  margin-top: 27px ;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: nowrap;
   gap: 25px;
@@ -220,6 +207,7 @@
   position: relative;
   height: 100%;
   text-decoration: none;
+  overflow: hidden;
 }
 
 .card {
@@ -231,7 +219,7 @@
   padding: 51px 40px 48px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card_type_film {
@@ -247,30 +235,35 @@
 }
 
 .card__title {
-  margin: 0%;
-  padding: 0%;
-  font-style: 23px;
   line-height: 26px;
   text-transform: uppercase;
   text-decoration: underline;
   color: #fff;
   font-weight: 700;
   z-index: 1;
+  font-size: 22px;
+  line-height: 1.19;
+  text-decoration-skip-ink: none;
 }
 
 .card__text {
   font-size: 20px;
-  line-height: 24px;
   color: #fff;
   font-weight: 400;
   z-index: 1;
+  line-height: 1.20;
+}
+
+.letter-spacing-extra {
+  letter-spacing: 0.13em;
 }
 
 .lots__look-more-link {
-  margin: 0 0 0 40px;
+  margin-left: 40px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  text-underline-offset: 3px ;
 }
 
 .about {
