@@ -72,6 +72,11 @@
   letter-spacing: 0;
 }
 
+.header__address .break::before {
+  content: '';
+  display: block;
+}
+
 /*cover*/
 
 .cover {
@@ -323,12 +328,6 @@
   padding-right: 29px;
 }
 
-.paragraf-white-space {
-  white-space: pre-wrap;
-  /*Задан класс и свойства по причине отсутствия переноса
-  слова "на" как указано в макете*/
-}
-
 /*footer*/
 
 .footer {
@@ -344,6 +343,11 @@
   font-style: normal;
   padding-left: 1px;
   letter-spacing: 0;
+}
+
+.footer__address .break::before {
+  content: '';
+  display: block;
 }
 
 .footer__menu {
@@ -380,7 +384,7 @@
 }
 
 .footer__social-list-item {
-  width: 48px;
+  max-width: 48px;
 }
 
 .footer__social-link {
