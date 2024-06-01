@@ -73,7 +73,7 @@
 }
 
 .header__address .break::before {
-  content: '';
+  content: "";
   display: block;
 }
 
@@ -196,15 +196,15 @@
   display: flex;
   gap: 25px;
   list-style: none;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   padding: 0;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .lots__card-list-items {
   min-width: 334px;
   min-height: 563px;
-  flex: 1 1 calc(33.33% - 25px); 
+  flex: 1 1 calc(33.33% - 25px);
   box-sizing: border-box;
 }
 
@@ -343,7 +343,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "address footer__menu footer__social-list";
   color: black;
-  margin-top: 20px ;
+  margin-top: 20px;
   padding: 0 49px 80px;
 }
 
@@ -355,7 +355,7 @@
 }
 
 .footer__address .break::before {
-  content: '';
+  content: "";
   display: block;
 }
 
