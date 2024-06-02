@@ -58,6 +58,7 @@
   justify-content: center;
   font-weight: 400;
   font-size: 18px;
+  font-style: normal;
   line-height: 1.35;
   text-underline-offset: 4px;
   padding-left: 2.5px;
@@ -65,14 +66,14 @@
   grid-area: address;
 }
 
-.header__address {
+.address__bar {
   display: block;
   font-style: normal;
   padding-left: 1px;
   letter-spacing: 0;
 }
 
-.header__address .break::before {
+.address__bar .break::before {
   content: "";
   display: block;
 }
@@ -343,20 +344,8 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "address footer__menu footer__social-list";
   color: black;
-  margin-top: 20px;
+  margin-top: 19px;
   padding: 0 49px 80px;
-}
-
-.footer__address {
-  display: block;
-  font-style: normal;
-  padding-left: 1px;
-  letter-spacing: 0;
-}
-
-.footer__address .break::before {
-  content: "";
-  display: block;
 }
 
 .footer__menu {
